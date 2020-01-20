@@ -6,7 +6,7 @@ describe('Register page', () => {
     it('should have the right title', () => {
         browser.url(URL_REGISTER);
         const actualTitle = browser.getTitle();
-        const expectedTitle = pageRegister.title;
+       const expectedTitle = pageRegister.title;
         expect(actualTitle).equal(expectedTitle);
     });
 
